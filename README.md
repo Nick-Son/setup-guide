@@ -92,3 +92,15 @@ eval "$(rbenv init -)"
 ```
 
 ## JavaScript | Node.js | React
+#### Ubuntu
+For Node.js 8:
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
+#### Arch Linux
+```
+pacman -S nodejs npm
+```
+
