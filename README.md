@@ -111,6 +111,12 @@ pacman -S nodejs npm
 Follow the guide linked below:
 https://help.github.com/articles/connecting-to-github-with-ssh/
 
+Setup local user:
+```
+git config --global user.email "you@example.com"
+git config --global user.name "your name"
+```
+
 ## Heroku CLI
 For full documentation, go to:
 https://devcenter.heroku.com/articles/heroku-cli
