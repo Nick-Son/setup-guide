@@ -1,5 +1,6 @@
 # Setup Cheat Sheet
 #### *Cheat sheet for installing all the stuff I need for a new Dev system*
+Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this to include MacOS at a later date :)
 
 ## Apps
 - Chrome
@@ -7,6 +8,8 @@
 - Slack
 - urxvt
 - git
+- zeal (docs)
+- Heroku CLI
 ```
 # Ubuntu
 # apt-get install git
@@ -104,3 +107,51 @@ sudo apt-get install -y nodejs
 pacman -S nodejs npm
 ```
 
+## Connecting to GitHub with SSH
+Follow the guide linked below:
+https://help.github.com/articles/connecting-to-github-with-ssh/
+
+## Heroku CLI
+For full documentation, go to:
+https://devcenter.heroku.com/articles/heroku-cli
+
+Ubuntu:
+```
+wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+```
+
+Arch:
+```
+npm install -g heroku-cli
+```
+
+After the installation has completed, login using your Heroku credentials:
+```
+heroku login
+```
+
+## Postgresql
+*fun*
+
+Install under Ubuntu:
+```
+sudo apt-get install postgresql postgresql-contrib libpq-dev
+```
+Restart the server:
+```
+sudo /etc/init.d/postgresql restart 
+```
+#### Creating a new user:
+Switch to postgress account
+```
+ sudo -i -u postgres 
+```
+The prompt should look like this:
+```
+postgres@server:~$ 
+```
+Enter the following:
+```
+createuser -P -s -e *username*
+```
+To make things easier, set your *username* to the username of your system, eg 'nick'. To make things even easier, leave the password blank, just hit enter.
