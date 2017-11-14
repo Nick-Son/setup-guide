@@ -122,6 +122,10 @@ nc > module   // the module
 For more info:
 https://www.npmjs.com/package/node-nc
 
+### Or, make your own!
+Follow this guide:
+https://pawelgrzybek.com/using-the-javascript-console-in-visual-studio-code/
+
 ## Connecting to GitHub with SSH
 Follow the guide linked below:
 https://help.github.com/articles/connecting-to-github-with-ssh/
