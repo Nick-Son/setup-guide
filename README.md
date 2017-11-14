@@ -161,3 +161,9 @@ Enter the following:
 createuser -P -s -e *username*
 ```
 To make things easier, set your *username* to the username of your system, eg 'nick'. To make things even easier, leave the password blank, just hit enter.
+
+## Openbox Setup
+Under Ubuntu:
+
+
+### Polybar
