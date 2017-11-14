@@ -107,6 +107,21 @@ sudo apt-get install -y nodejs
 pacman -S nodejs npm
 ```
 
+### Node Console (Rails console for JS)
+Install using npm (as root/admin)
+```
+npm install -g node-nc
+```
+#### Usage
+```
+$ node-nc # or nc
+nc > reload() // reloads all global files
+nc > $module$ // the path that is required when using module
+nc > module   // the module
+```
+For more info:
+https://www.npmjs.com/package/node-nc
+
 ## Connecting to GitHub with SSH
 Follow the guide linked below:
 https://help.github.com/articles/connecting-to-github-with-ssh/
