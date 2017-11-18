@@ -10,9 +10,11 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - git
 - zeal (docs)
 - Heroku CLI
+- curl
 ```
 # Ubuntu
 # apt-get install git
+# sudo apt-get install curl
 
 # Arch
 # pacman -S git
