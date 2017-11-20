@@ -209,6 +209,13 @@ add the following launch command to the neofetch call
 --w3m /home/*username*/path/to/img
 ```
 
+## Zeal Docs
+```
+sudo add-apt-repository ppa:zeal-developers/ppa
+sudo apt-get update
+sudo apt-get install zeal
+```
+
 ## Openbox Setup
 Under Ubuntu:
 
