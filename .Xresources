@@ -9,13 +9,14 @@ URxvt.fading:               0
 ! URxvt.visualBell:           true
 URxvt.loginShell:           true
 URxvt.saveLines:            50
-URxvt.internalBorder:       10
-URxvt.lineSpace:            0
+URxvt.internalBorder:       20
+URxvt.lineSpace:            2
 
 ! Fonts
 URxvt.allow_bold:           false
 /* URxvt.font:                 -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
-URxvt*font: xft:Hack:pixelsize=16
+!URxvt*font: xft:Roboto Mono for Powerline:pixelsize=16
+URxvt.font: xft:Roboto Mono for Powerline:pixelsize=20:antialias=true,xft:Droid Sans Mono for Powerline:pixelsize=20:antialias=true
 URxvt*boldFont: xft:Monospace:pixelsize=14
 
 
@@ -34,7 +35,7 @@ URxvt.urlLauncher:          firefox
 
 ! Cursor
 URxvt.cursorBlink:          true
-URxvt.cursorColor:          #657b83
+URxvt.cursorColor:          #dc322f
 URxvt.cursorUnderline:      false
 
 ! Pointer
@@ -46,7 +47,7 @@ URxvt.pointerBlank:         true
 *foreground: #657b83
 !!*fading: 40
 *fadeColor: #002b36
-*cursorColor: #93a1a1
+*cursorColor: #dc322f
 *pointerColorBackground: #586e75
 *pointerColorForeground: #93a1a1
 
