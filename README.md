@@ -216,6 +216,9 @@ sudo apt-get update
 sudo apt-get install zeal
 ```
 
+## Powerline Fonts
+https://github.com/powerline/fonts
+
 ## Openbox Setup
 Under Ubuntu:
 
