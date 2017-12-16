@@ -193,6 +193,10 @@ createuser -P -s -e *username*
 ```
 To make things easier, set your *username* to the username of your system, eg 'nick'. To make things even easier, leave the password blank, just hit enter.
 
+## MongoDB
+
+https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
 ## Neofetch
 ```
 sudo apt-get install neofetch
