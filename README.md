@@ -10,6 +10,8 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - git
 - zeal (docs)
 - Heroku CLI
+- MongoDB Compass
+- KeePassXC
 - curl
 ```
 # Ubuntu
