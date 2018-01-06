@@ -2,12 +2,13 @@
 #### *Cheat sheet for installing all the stuff I need for a new Dev system*
 Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this to include MacOS at a later date :)
 
-## Apps
+## Things to Install
 - Chrome/Firefox
 - Visual Studio Code
 - Slack
 - urxvt
 - git
+- Zsh
 - zeal (docs)
 - Heroku CLI
 - MongoDB Compass
@@ -17,11 +18,11 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 ## Git
 ```
 # Ubuntu
-# apt-get install git
-# sudo apt-get install curl
+ apt-get install git
+ sudo apt-get install curl
 
 # Arch
-# pacman -S git
+ pacman -S git
 ```
 ## Zsh
 Install Zsh from terminal
@@ -150,6 +151,15 @@ npm install -g typescript
 ## Angular CLI
 ```
 npm install -g angular-cli
+```
+
+## Gulp
+```
+// install globally
+npm install gulp -g
+
+// install to project
+npm install gulp --save-dev
 ```
 
 ## Connecting to GitHub with SSH
