@@ -150,7 +150,7 @@ npm install -g typescript
 
 ## Angular CLI
 ```
-npm install -g angular-cli
+npm install -g @angular/cli
 ```
 
 ## Gulp
