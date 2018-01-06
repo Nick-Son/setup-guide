@@ -3,7 +3,7 @@
 Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this to include MacOS at a later date :)
 
 ## Apps
-- Chrome
+- Chrome/Firefox
 - Visual Studio Code
 - Slack
 - urxvt
@@ -13,6 +13,8 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - MongoDB Compass
 - KeePassXC
 - curl
+
+## Git
 ```
 # Ubuntu
 # apt-get install git
@@ -98,7 +100,7 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-## JavaScript | Node.js | React
+## JavaScript | Node.js | Angular
 #### Ubuntu
 For Node.js 8:
 ```
@@ -139,6 +141,16 @@ https://www.npmjs.com/package/node-nc
 ### Or, make your own!
 Follow this guide:
 https://pawelgrzybek.com/using-the-javascript-console-in-visual-studio-code/
+
+## Typescript
+```
+npm install -g typescript
+```
+
+## Angular CLI
+```
+npm install -g angular-cli
+```
 
 ## Connecting to GitHub with SSH
 Follow the guide linked below:
