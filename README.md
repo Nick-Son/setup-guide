@@ -5,6 +5,7 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 ## Things to Install
 - Chrome/Firefox
 - Visual Studio Code
+- Sublime Text 3
 - Slack
 - urxvt
 - git
@@ -40,6 +41,32 @@ chsh -s /bin/zsh
 ```
 Logout and log back in. If you are greeted with a Zsh shell configuration prompt, select "2" to accept default settings.
 
+## Sublime Text
+Install the GPG key:
+```
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+```
+
+Ensure apt is set up to work with https sources:
+```
+sudo apt-get install apt-transport-https
+```
+
+Select the channel to use:
+```
+Stable
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+```
+Dev
+echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+```
+
+Update apt sources and install Sublime Text
+```
+sudo apt-get update
+sudo apt-get install sublime-text
+```
 
 ## Rbenv | Ruby | Rails
 Get some required depenancies:
@@ -122,26 +149,6 @@ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/source
 
 sudo apt-get update && sudo apt-get install yarn
 ```
-
-
-### Node Console (Rails console for JS)
-Install using npm (as root/admin)
-```
-npm install -g node-nc
-```
-#### Usage
-```
-$ node-nc # or nc
-nc > reload() // reloads all global files
-nc > $module$ // the path that is required when using module
-nc > module   // the module
-```
-For more info:
-https://www.npmjs.com/package/node-nc
-
-### Or, make your own!
-Follow this guide:
-https://pawelgrzybek.com/using-the-javascript-console-in-visual-studio-code/
 
 ## Typescript
 ```
