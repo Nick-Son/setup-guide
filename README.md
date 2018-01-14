@@ -15,6 +15,7 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - MongoDB Compass
 - KeePassXC
 - curl
+- Postman
 
 ## Git
 ```
@@ -227,6 +228,10 @@ To make things easier, set your *username* to the username of your system, eg 'n
 ## MongoDB
 
 https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/
+
+## Postman
+
+https://blog.bluematador.com/posts/postman-how-to-install-on-ubuntu-1604/?utm_source=hootsuite&utm_medium=twitter&utm_campaign=
 
 ## Neofetch
 ```
