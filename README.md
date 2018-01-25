@@ -20,7 +20,7 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 ## Git
 ```
 # Ubuntu
- apt-get install git
+ sudo apt-get install git
  sudo apt-get install curl
 
 # Arch
