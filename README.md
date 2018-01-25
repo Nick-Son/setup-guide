@@ -42,6 +42,11 @@ chsh -s /bin/zsh
 ```
 Logout and log back in. If you are greeted with a Zsh shell configuration prompt, select "2" to accept default settings.
 
+## Oh My Zsh
+```
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
 ## Sublime Text
 Install the GPG key:
 ```
