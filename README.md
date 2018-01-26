@@ -247,7 +247,7 @@ To get it to run on start up, add a call to it in the .zshrc file at the bottom.
 #### display an image
 Make sure imagemagick is installed, as well as w3m-img
 ```
-sudo apt-get intstall w3m-img
+sudo apt-get install w3m-img
 ```
 add the following launch command to the neofetch call
 ```
