@@ -211,6 +211,12 @@ Install under Ubuntu:
 ```
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 ```
+
+Start Server:
+```
+sudo systemctl start postgresql
+```
+
 Restart the server:
 ```
 sudo /etc/init.d/postgresql restart 
