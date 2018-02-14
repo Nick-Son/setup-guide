@@ -273,8 +273,4 @@ https://github.com/powerline/fonts
 ## Papirus  Icon theme
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
-## Openbox Setup
-Under Ubuntu:
 
-
-### Polybar
