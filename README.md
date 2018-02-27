@@ -13,9 +13,12 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - zeal (docs)
 - Heroku CLI
 - MongoDB Compass
+- Postman
 - KeePassXC
 - curl
 - Postman
+- Boostnote
+- Dropbox (for Boostnote)
 
 ## Git
 ```
