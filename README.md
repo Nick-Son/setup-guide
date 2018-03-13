@@ -19,6 +19,7 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - Postman
 - Boostnote
 - Dropbox (for Boostnote)
+- Eslint
 
 ## Git
 ```
@@ -276,4 +277,13 @@ https://github.com/powerline/fonts
 ## Papirus  Icon theme
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
+## Boostnote
+
+#### Ubuntu/Mac
+https://boostnote.io/
+
+#### Arch
+```
+pacman -S boostnote
+```
 
