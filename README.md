@@ -50,6 +50,11 @@ Logout and log back in. If you are greeted with a Zsh shell configuration prompt
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
+**_If using Archlabs 2018.3_**
+Themes and plugins wont load correctly (for me anyway), so remove the following package
+```
+sudo pacman -R grml-zsh-config
+```
 
 ## Sublime Text
 Install the GPG key:
