@@ -56,8 +56,27 @@ Themes and plugins wont load correctly (for me anyway), so remove the following 
 ```
 sudo pacman -R grml-zsh-config
 ```
+## Visual Studio Code
+#### Ubuntu/Mac
+https://code.visualstudio.com/#alt-downloads
+
+#### Arch
+```
+pacman -S visual-studio-code-bin
+```
+
+#### Packages/Themes
+- Babel
+- gitignore
+- REST Client
+- Material Icon Theme
+- Material Palenight Theme
+- vscode-icons
+- python
+(...to be updated)
 
 ## Sublime Text
+#### Ubuntu
 Install the GPG key:
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
@@ -83,6 +102,11 @@ Update apt sources and install Sublime Text
 sudo apt-get update
 sudo apt-get install sublime-text
 ```
+#### Packages/Themes
+- Babel
+- Emmet
+- Agilia (theme)
+
 
 ## Rbenv | Ruby | Rails
 Get some required depenancies:
