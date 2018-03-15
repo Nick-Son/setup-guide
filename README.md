@@ -62,7 +62,7 @@ https://code.visualstudio.com/#alt-downloads
 
 #### Arch
 ```
-pacman -S visual-studio-code-bin
+install **visual-studio-code-bin** from package manager 
 ```
 
 #### Packages/Themes
@@ -203,6 +203,11 @@ npm install -g typescript
 ## Angular CLI
 ```
 npm install -g @angular/cli
+```
+
+## Browser-Sync
+```
+npm install -g browser-sync
 ```
 
 ## Gulp
