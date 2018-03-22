@@ -219,6 +219,21 @@ npm install gulp -g
 npm install gulp --save-dev
 ```
 
+## Go
+
+Download the tar.gz file
+```bash
+# note: the .tar.gz file will be a different filename based on operating system and version nubmer at the time
+sudo tar -C /usr/local -xzf go1.10.linux-amd64.tar.gz 
+```
+
+add the following line to your .profile file
+```
+export PATH=$PATH:/usr/local/go/bin
+```
+
+
+
 ## Connecting to GitHub with SSH
 Follow the guide linked below:
 https://help.github.com/articles/connecting-to-github-with-ssh/
