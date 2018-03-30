@@ -332,6 +332,12 @@ https://github.com/powerline/fonts
 ## Papirus  Icon theme
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
+## KeePassXC
+#### Arch
+```bash
+sudo pacman -S keepassxc
+```
+
 ## Boostnote
 
 #### Ubuntu/Mac
