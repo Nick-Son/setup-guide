@@ -221,6 +221,11 @@ npm install gulp --save-dev
 
 ## Go
 
+For Ubuntu:
+```bash
+sudo apt-get install golang
+```
+
 Download the tar.gz file
 ```bash
 # note: the .tar.gz file will be a different filename based on operating system and version nubmer at the time
