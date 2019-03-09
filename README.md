@@ -22,9 +22,8 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 # Ubuntu
  sudo apt-get install git
  sudo apt-get install curl
-
+```
 ## Zsh
-Install Zsh from terminal
 ```
 sudo apt-get install zsh
 ```
@@ -43,12 +42,7 @@ Logout and log back in. If you are greeted with a Zsh shell configuration prompt
 ```
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-**_If using Archlabs 2018.3_**
 
-Themes and plugins wont load correctly (for me anyway), so remove the following package
-```
-sudo pacman -R grml-zsh-config
-```
 ## Visual Studio Code
 #### Ubuntu/Mac
 https://code.visualstudio.com/#alt-downloads
@@ -122,18 +116,14 @@ export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 ```
 
-## JavaScript | Node.js | Angular
+## Node.js
 #### Ubuntu
-For Node.js 8:
+For Node.js:
 ```
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-#### Arch Linux
-```
-pacman -S nodejs npm
-```
 
 ### Yarn
 #### Ubuntu
@@ -142,11 +132,6 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 
 sudo apt-get update && sudo apt-get install yarn
-```
-
-#### Arch Linux
-```
-pacman -S yarn
 ```
 
 ## Typescript
@@ -210,11 +195,6 @@ https://devcenter.heroku.com/articles/heroku-cli
 Ubuntu:
 ```
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
-```
-
-Arch:
-```
-npm install -g heroku-cli
 ```
 
 After the installation has completed, login using your Heroku credentials:
@@ -292,18 +272,4 @@ https://github.com/powerline/fonts
 https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
 
 ## KeePassXC
-#### Arch
-```bash
-sudo pacman -S keepassxc
-```
-
-## Boostnote
-
-#### Ubuntu/Mac
-https://boostnote.io/
-
-#### Arch
-```
-pacman -S boostnote
-```
 
