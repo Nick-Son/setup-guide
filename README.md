@@ -1,13 +1,11 @@
 # Setup Cheat Sheet
 #### *Cheat sheet for installing all the stuff I need for a new Dev system*
-Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this to include MacOS at a later date :)
+Note: this is primarily for a Linux system (Ubuntu). I might update this to include MacOS at a later date :)
 
 ## Things to Install
 - Chrome/Firefox
 - Visual Studio Code
-- Sublime Text 3
 - Slack
-- urxvt
 - git
 - Zsh
 - zeal (docs)
@@ -17,9 +15,7 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
 - KeePassXC
 - curl
 - Postman
-- Boostnote
 - Dropbox (for Boostnote)
-- Eslint
 
 ## Git
 ```
@@ -27,9 +23,6 @@ Note: this is primarily for a Linux system (Arch or Ubuntu). I might update this
  sudo apt-get install git
  sudo apt-get install curl
 
-# Arch
- pacman -S git
-```
 ## Zsh
 Install Zsh from terminal
 ```
@@ -60,11 +53,6 @@ sudo pacman -R grml-zsh-config
 #### Ubuntu/Mac
 https://code.visualstudio.com/#alt-downloads
 
-#### Arch
-```
-install **visual-studio-code-bin** from package manager 
-```
-
 #### Packages/Themes
 - Babel
 - gitignore
@@ -73,40 +61,6 @@ install **visual-studio-code-bin** from package manager
 - Material Palenight Theme
 - vscode-icons
 - python
-(...to be updated)
-
-## Sublime Text
-#### Ubuntu
-Install the GPG key:
-```
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-```
-
-Ensure apt is set up to work with https sources:
-```
-sudo apt-get install apt-transport-https
-```
-
-Select the channel to use:
-```
-Stable
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-```
-```
-Dev
-echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-```
-
-Update apt sources and install Sublime Text
-```
-sudo apt-get update
-sudo apt-get install sublime-text
-```
-#### Packages/Themes
-- Babel
-- Emmet
-- Agilia (theme)
-
 
 ## Rbenv | Ruby | Rails
 Get some required depenancies:
