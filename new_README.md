@@ -14,6 +14,7 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - Dropbox
 - KeepassXC
 - Typora
+- Notion
 
 ## Languages/Frameworks
 - Node.JS
@@ -23,6 +24,7 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - Ruby (https://gorails.com/setup/ubuntu/19.04)
   - Rails
   - Hanami
+  - ...lolcat
 - Crystal
   - Amber
 - Elixir
@@ -43,3 +45,5 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - MySQL
 
 ## Windows Specific
+- chocolatey
+- unix utils
