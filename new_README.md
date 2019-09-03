@@ -7,6 +7,7 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - Git
 - Zsh + OMZ
 - Curl
+- Alacritty/Hyper (or terminal du jour)
 
 ## Apps
 - VScode
