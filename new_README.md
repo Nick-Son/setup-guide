@@ -46,5 +46,5 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - MySQL
 
 ## Windows Specific
-- chocolatey
+- chocolatey (see chocolatey script)
 - unix utils
