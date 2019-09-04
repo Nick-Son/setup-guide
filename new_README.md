@@ -1,7 +1,7 @@
 # Setup Cheat Sheet
 
 #### *Cheat sheet for installing all the stuff I need for a new Dev system*
-Note: this is primarily for a Linux system (Ubuntu). I might update this to include MacOS at a later date :)
+Note: this is primarily for a Linux system (Ubuntu or termux if you're using chromeOS or android) . I might update this to include MacOS at a later date :)
 
 ## Utilities
 - Git
@@ -13,6 +13,7 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - VScode
 - Slack
 - Dropbox
+- Android Studio
 - KeepassXC
 - Typora
 - Notion
@@ -22,6 +23,7 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
   - yarn
   - Browser Sync
   - Gulp
+  - ionic
 - Ruby (https://gorails.com/setup/ubuntu/19.04)
   - Rails
   - Hanami
@@ -31,6 +33,9 @@ Note: this is primarily for a Linux system (Ubuntu). I might update this to incl
 - Elixir
 - Go
 - Python
+- Java
+  - sudo apt install default-jre
+- Kotlin
 
 ## misc
 - Powerlevel 9k
